@@ -10,7 +10,7 @@ All programs will maintain the progress, you can interrupt anytime.
 
 ### macos_brute_force
 
-You should download your password dictionary and get the WiFi Name(SSID), then run the program, like this:
+You should download your password dictionary(like [this](https://github.com/danielmiessler/SecLists)) and get the WiFi Name(SSID), then run the program, like this:
 
 ```bash
 python3 macos_brute_force.py -f ./dictionary/Chinese-common-password-list-top-1000000.txt -s TP-Link_ZYD6
